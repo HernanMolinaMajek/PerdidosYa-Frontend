@@ -1,0 +1,20 @@
+[
+    {
+        "_id":1,
+        "name":"Hernan",
+        "email":"correo1@gmail.com",
+        "phone":"3876234575"
+    },
+    {
+        "_id":2,
+        "name":"Belen",
+        "email":"correo2@gmail.com",
+        "phone":"38762234895"
+    },
+    {
+        "_id":3,
+        "name":"Pablo",
+        "email":"correo3@gmail.com",
+        "phone":"3876233455"
+    }
+]

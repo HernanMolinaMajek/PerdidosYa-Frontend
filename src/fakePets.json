@@ -1,0 +1,42 @@
+[
+    {
+        "_id": 1,
+        "_ownerId": 3,
+        "name": "Paco",
+        "_type": 1,
+        "breed": "Ovejero aleman",
+        "description": "Grande, Negro",
+        "isLost": false,
+        "LostIfo": null
+    },
+    {
+        "_id": 2,
+        "_ownerId": 2,
+        "name": "Betun",
+        "_type": 2,
+        "breed": "Egipcio",
+        "description": "Cabezon y feo",
+        "isLost": false,
+        "LostIfo": null
+    },
+    {
+        "_id": 3,
+        "_ownerId": 1,
+        "name": "Simurdiera",
+        "_type": 1,
+        "breed": "Caschi",
+        "description": "Grande, Marron",
+        "isLost": true,
+        "LostIfo": 1
+    },
+    {
+        "_id": 4,
+        "_ownerId": 2,
+        "name": "Patricio",
+        "_type": 4,
+        "breed": "Estrella de mar",
+        "description": "Rosa",
+        "isLost": true,
+        "LostIfo": 2
+    }
+]
