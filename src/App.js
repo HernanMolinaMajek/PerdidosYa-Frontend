@@ -15,6 +15,7 @@ const App = () => {
 
   const setOwnerInfo = (userId) => {
     setUser(getLoggedUser(userId));
+    <p>HOLA</p>
   };
 
   return <div>{user ? <PetAdmin user={user} /> : null}</div>;
