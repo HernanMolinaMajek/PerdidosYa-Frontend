@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
 import fakeOwners from "./fakeOwners.json";
-import PetAdmin from "./views/PetsAdmin";
+import NewPetForm  from "./views/NewPetForm/Index"
+import Login from "./views/Login/Index"
+import LostPetForm from "./views/LostPetForm/Index"
+import MoreInfoAfterFb from "./views/MoreInfoAfterFb/Index"
+
 
 const App = () => {
   const [user, setUser] = useState(null);
@@ -15,10 +19,15 @@ const App = () => {
 
   const setOwnerInfo = (userId) => {
     setUser(getLoggedUser(userId));
-    <p>HOLA</p>
+  
   };
 
-  return <div>{user ? <PetAdmin user={user} /> : null}</div>;
+  return <div className="bg-white">
+    <NewPetForm/>
+    <Login/>
+    <LostPetForm/>
+    <MoreInfoAfterFb/>
+  </div>;
 };
 
 export default App;
